@@ -5,9 +5,7 @@ public class JavaMethodExercise {
         aritmetica(12,10,8);
         System.out.println(aritmetica(5,10,8));
 
-
     }
-
     public static void metoda() {
         System.out.println("Urmeaza vacanta!");
     }
@@ -21,12 +19,6 @@ public class JavaMethodExercise {
        }
        public static int aritmetica(int a, int b,int c){
         return (a+b+c);
-
        }
-
-
-
-
-
 
 }

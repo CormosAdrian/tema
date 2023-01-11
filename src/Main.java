@@ -33,21 +33,21 @@ int lungimenume = myName.length();
 
 double[] height={10.5,5.2,4.8,7};
         System.out.println(height[1]);
-        System.out.println(height[3]);
+         System.out.println(height[3]);
 
  */
 /*
         Animal animal1 =new Animal("soricel","cenusie",false );
-        System.out.println(animal1.afiseaza());
-        Animal animal2 =new Animal("Ursul","alba", false);
-        Animal animal3= new Animal("Ursul","Alba");
-        animal3.doarme(animal3.nume);
-        animal3.mananca(animal3.nume);
-        System.out.println(animal3.afiseaza());
-        Animal animal4=new Animal("Pinguinul","alb/negru");
-        animal4.doarme(animal4.nume);
-        animal4.mananca(animal4.nume);
-        System.out.println(animal4.afiseaza());
+         System.out.println(animal1.afiseaza());
+          Animal animal2 =new Animal("Ursul","alba", false);
+           Animal animal3= new Animal("Ursul","Alba");
+            animal3.doarme(animal3.nume);
+             animal3.mananca(animal3.nume);
+               System.out.println(animal3.afiseaza());
+                Animal animal4=new Animal("Pinguinul","alb/negru");
+                 animal4.doarme(animal4.nume);
+                  animal4.mananca(animal4.nume);
+                   System.out.println(animal4.afiseaza());
 */
 
 

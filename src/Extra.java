@@ -5,16 +5,16 @@ public class Extra {
         int luna=11;
         int zi=12;
         System.out.println(luna+","+zi+","+"1989");
-        System.out.println(luna+","+zi+",1989");
+         System.out.println(luna+","+zi+",1989");
 
         int anulNasteri=1989;
         String nume="Cormos Adrian";
-        System.out.println("Numele meu este "+nume+ "Anul nasterii este "+anulNasteri);
-        System.out.println("-------------------------------------------------------------------------------------");
+         System.out.println("Numele meu este "+nume+ "Anul nasterii este "+anulNasteri);
+          System.out.println("-------------------------------------------------------------------------------------");
 
         int x=1;
         String y="Cadouri !";
-        System.out.println("Sotia a primit "+ x +" "+y);
+         System.out.println("Sotia a primit "+ x +" "+y);
         if (x<=0) {
             System.out.println("Sad Women");
         }
@@ -28,10 +28,10 @@ public class Extra {
            boolean myBool = false;
             String myText = "Hello World";
         System.out.println(myNum);
-        System.out.println(myFloatNum);
-        System.out.println(myLetter);
-        System.out.println(myBool);
-        System.out.println(myText);
+         System.out.println(myFloatNum);
+          System.out.println(myLetter);
+           System.out.println(myBool);
+            System.out.println(myText);
         byte h=4;
         int c=h;
         System.out.println(c);
@@ -45,12 +45,10 @@ public class Extra {
         int lungime=nume1.length();
         System.out.println("Lungimea numelui este "+ lungime);
 
-
         double numere[]={3.2,2.3,4.5,5.4};
-        System.out.println("Al doilea numar este "+numere[1]);
-        System.out.println("Al patrulea numar este "+numere[3]);
-        System.out.println(">>>>>>>>>>>>>>>>>>>>><<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<");
-
+         System.out.println("Al doilea numar este "+numere[1]);
+          System.out.println("Al patrulea numar este "+numere[3]);
+           System.out.println(">>>>>>>>>>>>>>>>>>>>><<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<");
 
         int doi=2;
         //doi +=3;
@@ -98,24 +96,7 @@ public class Extra {
         catch (Exception u)
         { System.out.println("Something went wrong."); }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     }
-
-
 
     }
 

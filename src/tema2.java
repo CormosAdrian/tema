@@ -21,26 +21,17 @@ c+=5;
         System.out.println("z=" +z);
         if (z>=10)
 
-
         {
-
             System.out.println("Suma este mai mare!");
         }
-
          else
             System.out.println("Suma este mai mica!");
 
-
          if (z%2==0){
              System.out.println("Suma este numar par");
-
          }
          else
              System.out.println();
-
-
-
-
     }
 
 }

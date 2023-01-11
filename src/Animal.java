@@ -20,10 +20,10 @@ private class undeTraieste {
 
     Animal() {
             this.nume = "unknown";
-            this.culoare = "unknown";
-            this.vegetarian = false;
-            this.nrPicioare = 0;
-            this.undeTraieste="unknown";
+             this.culoare = "unknown";
+              this.vegetarian = false;
+               this.nrPicioare = 0;
+                this.undeTraieste="unknown";
 
         }
 
@@ -33,19 +33,19 @@ private class undeTraieste {
 
         Animal(String nume, String culoare) {
             this.nume = nume;
-            this.culoare = culoare;
+             this.culoare = culoare;
         }
 
         Animal(String nume, String culoare, boolean vegetarian){
             this.nume = nume;
-            this.culoare = culoare;
-            this.vegetarian = vegetarian;
+             this.culoare = culoare;
+              this.vegetarian = vegetarian;
         }
         Animal(String nume, String culoare, int nrPicioare, String undeTraieste) {
             this.nume = nume;
-            this.culoare = culoare;
-            this.nrPicioare = nrPicioare;
-            this.undeTraieste= undeTraieste;
+             this.culoare = culoare;
+              this.nrPicioare = nrPicioare;
+               this.undeTraieste= undeTraieste;
 
         }
         public String afiseaza () {
@@ -68,10 +68,6 @@ private class undeTraieste {
                 System.out.println(" Are alt numar de picioare ");
             }
 
-
         }
-
-
-
 
     }

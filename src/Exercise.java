@@ -9,8 +9,6 @@ public class Exercise {
 
         {
 
-
-
             System.out.println(" c " + "Mai mic de 10");}
         else if (c ==10) {
 
@@ -18,7 +16,6 @@ public class Exercise {
 
         else if (c>10){
             System.out.println("c Mai mare de 10");
-
         }
 
         String[] animale= {"Caine","Gaina" , "Purcel"};
