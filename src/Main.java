@@ -51,17 +51,23 @@ double[] height={10.5,5.2,4.8,7};
 */
 
 
-        Animal animal5=new Animal("Caine","Maro",4);
-        animal5.afiseazaPicioarele();
+        Animal animal5=new Animal(" Cainele","Maro",4, "Pe uscat");
+         System.out.print(animal5.nume);
+          animal5.afiseazaPicioarele();
+           System.out.println("Traieste-"+animal5.undeTraieste);
+             System.out.println("<<<<<<<<<<<<<<<<<<<<<>>>>>>>>>>>>>>>>>");
 
 
-        Animal animal6=new Animal("Rata","Alb",2);
-        animal6.afiseazaPicioarele();
+        Animal animal6=new Animal(" Rata","Alb",2,"Pe uscat||Apa");
+         System.out.print(animal6.nume);
+          animal6.afiseazaPicioarele();
+           System.out.println("Traieste-"+animal6.undeTraieste);
+            System.out.println("<<<<<<<<<<<<<<<<<<<<>>>>>>>>>>>>>>>>");
 
-        Animal animal7=new Animal("Caracatita","Rosu",8);
-
-       // System.out.println(animal7.afiseazaPicioarele());
-        animal7.afiseazaPicioarele();
+        Animal animal7=new Animal(" Caracatita","Rosu",8,"In apa");
+         System.out.print(animal7.nume);
+          animal7.afiseazaPicioarele();
+           System.out.println("Traieste-"+animal7.undeTraieste);
 
 
 

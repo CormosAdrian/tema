@@ -5,13 +5,26 @@ public class Animal {
         String culoare;
         boolean vegetarian;
         int nrPicioare;
+        String undeTraieste;
 
+private class undeTraieste {
+}
+
+    public String getUndeTraieste() {
+        return undeTraieste;
+    }
+
+    public void setUndeTraieste(String undeTraieste) {
+        this.undeTraieste = undeTraieste;
+    }
 
     Animal() {
             this.nume = "unknown";
             this.culoare = "unknown";
             this.vegetarian = false;
             this.nrPicioare = 0;
+            this.undeTraieste="unknown";
+
         }
 
         Animal(String nume) {
@@ -28,10 +41,12 @@ public class Animal {
             this.culoare = culoare;
             this.vegetarian = vegetarian;
         }
-        Animal(String nume, String culoare, int nrPicioare){
+        Animal(String nume, String culoare, int nrPicioare, String undeTraieste) {
             this.nume = nume;
             this.culoare = culoare;
             this.nrPicioare = nrPicioare;
+            this.undeTraieste= undeTraieste;
+
         }
         public String afiseaza () {
             return (nume + " are culoarea " + culoare);
@@ -55,6 +70,8 @@ public class Animal {
 
 
         }
+
+
 
 
     }
